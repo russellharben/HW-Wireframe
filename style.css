@@ -32,14 +32,14 @@ footer {
 section{
     position:absolute;
     width:275px;
-    height:200px;
+    height:150px;
     left:360px;
     clear:both;
 }
 
 aside{
     width:170px;
-    height:200px;
+    height:150px;
     right:350px;
     margin-left:538px;
     clear:both;
@@ -51,6 +51,7 @@ article {
     background-color:#777;
     color:#ebebeb;
     width:200px;
+    height:90px;
     margin-left:auto;
     margin-right:auto;
     margin-top:10px;
@@ -65,8 +66,12 @@ h1, p {
     width:495px;
     margin-left:auto;
     margin-right:auto;
-    margin-top:25px;
-    padding:10px;
+    margin-top:-40px;
+    padding:5px;
+}
+
+article div {
+    margin-top:-20px;
 }
 
 .backgroundLightGray {
@@ -79,5 +84,5 @@ h1, p {
 }
 
 .padding5 {
-    padding:10px 5px;
+    padding: 6px 2px;
 }
