@@ -10,7 +10,7 @@ body{
     margin-right:auto;
 }
 
-header, nav, section, aside {
+header, nav, aside {
     background-color:#ebebeb;
     width:495px;
     margin-left:auto;
@@ -31,17 +31,20 @@ footer {
 
 section{
     position:absolute;
-    width:275px;
-    height:150px;
+    background-color:#ebebeb;
+    color:#777;
+    width:300px;
+    height:190px;
     left:360px;
     clear:both;
-}
+    margin-top:10px;
+} 
 
 aside{
-    width:170px;
+    width:185px;
     height:150px;
-    right:350px;
-    margin-left:538px;
+    right:370px;
+    margin-left:522px;
     clear:both;
 }
 
